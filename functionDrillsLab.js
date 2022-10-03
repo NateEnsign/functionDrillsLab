@@ -230,6 +230,17 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
+let numArr = [1,2,3,4,5]
+
+function printAllNames (arr) {
+  for (let i = 0; i < namesArr.length; i++) {
+    console.log(arr[i])
+  }
+}
+
+printAllNames(numArr)
+
+
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -240,6 +251,18 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+
+function thatsOdd (x) {
+  if (x % 2 === 0) {
+    return "That's not odd!"
+  }else {
+    return "That's odd indeed!"
+  }
+}
+ let oddChecker = thatsOdd(8)
+ console.log(oddChecker)
+
+ 
 
 
 ////////////////// PROBLEM 14 ////////////////////
@@ -253,6 +276,8 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+
+
 
 
 ////////////////// PROBLEM 15 ////////////////////
