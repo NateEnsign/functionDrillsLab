@@ -102,6 +102,15 @@ let compareNums = (x,y) => {
 
 //CODE HERE
 
+function add (x, y){
+  x2 = parseInt(x)
+  y2 = parseInt(y)
+  return x2 + y2
+}
+
+
+console.log(add('10ft',3))
+
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -116,7 +125,7 @@ const exclaim = function(str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+ console.log('expression')
 
 
 
@@ -131,7 +140,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// console.log('arrow')
+ console.log('arrow')
 // console.log('declaration')
 // console.log('expression')
 
@@ -142,6 +151,8 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
+const exclaimThree = str => str.toUpperCase() + '!!!'
+console.log(exclaimThree("arrow"))
 
 
 ////////////////// PROBLEM 9 ////////////////////
@@ -156,7 +167,7 @@ function exclaimFour(str) {
 }
 
 // console.log('arrow')
-// console.log('declaration')
+ console.log('declaration')
 // console.log('expression')
 
 
@@ -171,6 +182,17 @@ function exclaimFour(str) {
 
 //CODE HERE
 
+function nameCheck (name){
+  if (name === 'Steven'){
+    console.log("What is up Steven?")
+  }else if (name === 'Bryan'){
+    console.log("Hey Bryan!")
+  }else {
+    console.log("Cool name, " + name)
+  }
+}
+nameCheck("Jerry")
+
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
@@ -183,6 +205,19 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
+function faveColorFinder (color){
+  if (color === "red"){
+    return "red is a great color"
+  }else if (color === 'green'){
+    return 'green is a solid favorite color'
+  }else if (color === 'black'){
+    return 'so trendy'
+  }else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
+let colorRating = console.log(faveColorFinder("yellow"))
 
 
 ////////////////// PROBLEM 12 ////////////////////
